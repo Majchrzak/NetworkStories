@@ -4,7 +4,7 @@
 
 make sure you have dotnet installed or visit https://dotnet.microsoft.com/en-us/download
 
-in repo root:
+to run locally, in repo root:
 ```
 // to start backend webapi
 dotnet run --project ./NetworkStories.WebApi/NetworkStories.WebApi.csproj --configuration Release
@@ -51,3 +51,4 @@ Because of limited time box decided to drop:
 * rate limiter for `StoryController`
 * docker, integration tests in docker
 * use `Redis` insted of `InMemoryStorage`
+* more loggers
